@@ -3,7 +3,7 @@
 
 /* Project-Page Styling */
 .project_header {
-  @apply text-4xl text-dark-green  text-center mb-5;
+  @apply text-4xl text-dark-green  text-center mb-5 text-shadow-lg/10 text-shadow-black;
 }
 .project_subtitle {
   @apply text-2xl mt-5 text-dark-green;

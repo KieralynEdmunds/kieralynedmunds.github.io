@@ -459,10 +459,6 @@
     --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .text-shadow-lg\/20 {
-    --tw-text-shadow-alpha: 20%;
-    text-shadow: 0px 1px 2px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 20%)), 0px 3px 2px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 20%)), 0px 4px 8px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 20%));
-  }
   .text-shadow-lg\/50 {
     --tw-text-shadow-alpha: 50%;
     text-shadow: 0px 1px 2px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 50%)), 0px 3px 2px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 50%)), 0px 4px 8px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 50%));
@@ -595,12 +591,6 @@
   font-size: var(--text-4xl);
   line-height: var(--tw-leading, var(--text-4xl--line-height));
   color: var(--color-dark-green);
-  --tw-text-shadow-alpha: 10%;
-  text-shadow: 0px 1px 2px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 10%)), 0px 3px 2px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 10%)), 0px 4px 8px var(--tw-text-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 10%));
-  --tw-text-shadow-color: #000;
-  @supports (color: color-mix(in lab, red, red)) {
-    --tw-text-shadow-color: color-mix(in oklab, var(--color-black) var(--tw-text-shadow-alpha), transparent);
-  }
 }
 .project_subtitle {
   margin-top: calc(var(--spacing) * 5);
